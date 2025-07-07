@@ -1,0 +1,612 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "plant": "La Planta",
+    "innovation": "Innovación",
+    "sustainability": "Sostenibilidad",
+    "services": "Gestiones",
+    "about": "Empresa",
+    "clientArea": "Área Clientes",
+    "privacy": "Política de Privacidad"
+  },
+  "meta": {
+    "home": {
+      "metaTitle": "IDR │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Depuración Innovadora para un futuro sostenible.",
+      "title": "IDR"
+    },
+    "plant": {
+      "metaTitle": "La Planta │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Pioneros en depuración biológica para el tratamiento de aguas.",
+      "title": "La Planta"
+    },
+    "innovation": {
+      "metaTitle": "Innovación │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Depuración Innovadora para un futuro sostenible.",
+      "title": "Innovación"
+    },
+    "sustainability": {
+      "metaTitle": "Sostenibilidad │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Compromiso con el medio ambiente y las personas.",
+      "title": "Sostenibilidad"
+    },
+    "services": {
+      "metaTitle": "Gestiones │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Gestión de residuos líquidos industriales.",
+      "title": "Gestiones"
+    },
+    "about": {
+      "metaTitle": "Empresa │ Igualadina de Depuración y Recuperación.",
+      "metaDescription": "Unidos por una industria del cuero sostenible.",
+      "title": "Empresa"
+    },
+    "privacy": {
+      "metaTitle": "Política de Privacidad │ IDR",
+      "metaDescription": "Política de Privacidad",
+      "title": "Política de Privacidad"
+    }
+  },
+  "footer": {
+    "sitemap": "Mapa Web",
+    "privacy": "Política de Privacidad",
+    "address": "Dirección",
+    "addressStreet": "Ronda del Rec, 163",
+    "addressCity": "08700 Igualada",
+    "addressCountry": "Barcelona, España",
+    "contact": "Contacto",
+    "contactOffice": "Oficinas",
+    "contactPlant": "Planta",
+    "copyright": "© 2025 Igualadina de Depuració i Recuperació. Todos los derechos reservados."
+  },
+  
+  "home": {
+    "title": "Somos IDR",
+    "subtitle": "Igualadina de Depuració i Recuperació",
+    "button": {
+      "more": "Saber más"
+    },
+    "sections": {
+      "tech": {
+        "title": "Depuración innovadora para un futuro sostenible",
+        "highlight1": "La planta de IDR, pionera en Europa en depuración biológica, utiliza tecnología de última generación para garantizar la eficiencia y la calidad del tratamiento de las aguas.",
+        "text1": "Esta instalación refleja el compromiso colectivo con una industria más limpia, sostenible y preparada para los retos medioambientales del presente y del futuro.",
+        "highlight2": "Gestionada por un equipo de profesionales especializados en el tratamiento de aguas residuales industriales, asegura un control riguroso de calidad en todas las fases del proceso, cumpliendo con todos los estándares medioambientales vigentes.",
+        "text2": "La planta también ofrece servicios de gestión de residuos líquidos no peligrosos para otras industrias, ayudando a reducir el impacto ambiental de la industria catalana.",
+        "button": "Ver la planta"
+      },
+      "about": {
+        "tagline": "QUIÉNES SOMOS",
+        "title": "Unidos por una industria de la piel sostenible",
+        "text1": "Igualadina de Depuración y Recuperación (IDR) es una iniciativa corporativa de la asociación Leather Cluster Barcelona (LCB) con la participación de los curtidores del barrio del Rec de Igualada, creada con el objetivo de garantizar un futuro sostenible para el sector de la piel.",
+        "text2": "Gracias a esta alianza, IDR se ha convertido en una plataforma única en Cataluña, con una misión clara: Impulsar una industria de la piel más sostenible."
+      },
+      "partners": {
+        "title": "Socios",
+        "subtitle": "Nuestros socios fundadores incluyen destacadas empresas del sector de la piel, así como el Ayuntamiento de Igualada y representantes de las industrias textil y química, todos comprometidos con la sostenibilidad ambiental.",
+        "illustrious": "SOCIO ILUSTRE"
+      },
+      "services": {
+        "tagline": "SERVICIOS",
+        "title": "Gestión de residuos líquidos para una industria más limpia",
+        "text1": "IDR es la única planta depuradora autorizada en Cataluña para tratar residuos líquidos industriales no peligrosos.",
+        "text2": "Añadimos valor a la industria catalana ofreciendo un servicio especializado de depuración de aguas para empresas externas, con tecnología avanzada y procesos sostenibles.",
+        "button": "Más Información"
+      },
+      "mission": {
+        "title": "Nuestra misión",
+        "subtitle": "En IDR, nos esforzamos por ofrecer soluciones de depuración sostenibles, innovando constantemente para explorar modelos de economía circular y avanzar hacia una industria cada día más eficiente y responsable con el medio ambiente.",
+        "cards": {
+          "water": {
+            "title": "Calidad del agua",
+            "text": "Aplicamos procesos avanzados de tratamiento para garantizar un agua depurada de máxima calidad, protegiendo el entorno mediante una gestión eficiente del agua durante todo el proceso de depuración."
+          },
+          "sustainability": {
+            "title": "Sostenibilidad ambiental",
+            "text": "Estamos comprometidos con la reducción del impacto ecológico del sector de la piel, depurando las aguas residuales del proceso de transformación de la piel mediante tratamientos biológicos para minimizar su efecto ambiental."
+          },
+          "circular": {
+            "title": "Economía Circular",
+            "text": "Fomentamos la investigación de alternativas para reintegrar el agua depurada en el proceso productivo, contribuyendo así a un sistema más circular y optimizando el uso de los recursos hídricos."
+          }
+        }
+      },
+      "innovation": {
+        "tagline": "PROYECTOS",
+        "title": "Soluciones innovadoras para nuevos retos ambientales",
+        "text": "Impulsamos proyectos I+D para optimizar los procesos existentes e implementar tecnologías innovadoras que permitan una depuración cada vez más completa y sostenible, avanzando hacia un modelo de economía circular e impacto cero.",
+        "button": "Ver Proyectos"
+      },
+      "posts": {
+        "title": "Proyectos Destacados"
+      }
+    }
+  },
+  
+  "plant": {
+    "hero": {
+      "tagline": "LA PLANTA",
+      "title": "Pioneros en depuración biológica para el tratamiento de aguas"
+    },
+    "sections": {
+      "plant": {
+        "tagline": "La planta",
+        "title": "Tecnología avanzada al servicio del agua",
+        "highlight": "Nuestra planta, pionera en Europa en depuración biológica, realiza el tratamiento de las aguas residuales del sector de la piel en Igualada.",
+        "text1": "Equipada con tecnología de última generación y gestionada por Tradebe, compañía internacional líder en el tratamiento de residuos industriales, asegura un proceso eficiente que cumple los estándares medioambientales más exigentes.",
+        "text2": "Con una supervisión constante y rigurosa, analizamos diariamente las aguas residuales, lo que nos permite conocer con precisión su composición y aplicar mejoras inmediatas para reducir el impacto ambiental en tiempo real."
+      },
+      "process": {
+        "tagline": "Nuestro proceso",
+        "title": "Depuración biológica: Agua, aire y vida en armonía",
+        "highlight": "Nuestro proceso de depuración imita los ciclos de la naturaleza, utilizando el agua, el aire y la vida microbiana.",
+        "text1": "El agua residual se trata con oxígeno para favorecer el crecimiento de bacterias específicas, que descomponen la materia orgánica y transforman los contaminantes a través del ciclo natural del nitrógeno. En fases finales, las bacterias, sin necesidad de oxígeno, convierten los nitratos en nitrógeno gas, retornando el agua limpia al medio con un impacto mínimo.",
+        "text2": "Este sistema es una solución altamente sostenible que reproduce el funcionamiento de la naturaleza en cada etapa."
+      },
+      "facilities": {
+        "tagline": "Las instalaciones",
+        "title": "Un recorrido por las instalaciones y el proceso de depuración",
+        "text1": "Cada día, técnicos especializados de la depuradora recogen muestras de agua proporcionales al caudal vertido por las 26 empresas asociadas para su análisis. Los resultados obtenidos permiten conocer con exactitud la composición de las aguas residuales de cada empresa, y estas, a su vez, toman las medidas adecuadas para minimizar el impacto ambiental.",
+        "text2": "Una vez en la planta de tratamiento, el agua pasa por procesos físicos, químicos y biológicos para eliminar sólidos, materia en suspensión, sustancias disueltas como materia orgánica y nitrógeno, así como el color. Finalmente, el agua tratada se retorna limpia al medio ambiente, cumpliendo con los requisitos ambientales establecidos."
+      },
+      "video": {
+        "tagline": "RECORRIDO AUDIOVISUAL",
+        "title": "El proceso de depuración del agua"
+      },
+      "posts": {
+        "title": "Proyectos Destacados"
+      }
+    },
+    "numbers": {
+      "investment": {
+        "amount": "12M €",
+        "label": "Inversión inicial"
+      },
+      "operation": {
+        "amount": "4,5M €",
+        "label": "Coste anual de explotación"
+      },
+      "water": {
+        "amount": "4000m³",
+        "label": "Agua depurada diariamente"
+      }
+    },
+    "techSlideshow": {
+      "slides": {
+        "analysis": {
+          "tagline": "ANÁLISIS DEL AGUA",
+          "title": "Análisis de las aguas de las curtidurías",
+          "text1": "Cada día, técnicos especializados de la depuradora recogen muestras de agua de las 26 empresas curtidoras asociadas, para su análisis.",
+          "text2": "Las muestras de agua se procesan en un laboratorio especializado situado en el A3 Innovation Center de la Universidad de Lleida, en el Campus de Igualada.",
+          "text3": "Los resultados obtenidos permiten determinar con precisión la composición de las aguas residuales procedentes de cada empresa. Esto posibilita ajustar los procesos de la depuradora a los cambios en la composición de las aguas de las curtidurías y notificar en tiempo real cualquier anomalía que requiera corrección."
+        },
+        "pretreatment": {
+          "tagline": "PRETRATAMIENTO",
+          "title": "Desbaste o cribado",
+          "text1": "El agua llega a los pozos de entrada de la depuradora a través de los colectores: uno para el colector industrial y otro para el municipal. Estas líneas de agua se mantienen separadas hasta que llegan al primer reactor biológico. En estos pozos, se eliminan los sólidos gruesos mediante una cuchara bivalva y rejas de filtrado.",
+          "text2": "Después de la extracción de los sólidos gruesos, el pozo de bombeo bombea el agua hacia la siguiente fase, donde se retiran los sólidos finos mediante dos tamices de escala. Finalmente, en el desengrasador y desarenador, las grasas se retiran por flotación y las arenas por decantación.",
+          "text3": "Cada tipo de residuo retirado en esta fase se deposita en cubetas separadas para gestionarlos posteriormente."
+        },
+        "chemical": {
+          "tagline": "TRATAMIENTO QUÍMICO",
+          "title": "Corrección de pH y desulfuración",
+          "text1": "El agua de la línea industrial pasa por el corrector de pH, para adecuarlo a las siguientes fases del proceso. Una parte del agua industrial se dirige directamente al primer reactor biológico. Mientras que la otra se trata en los tanques de desulfuración, donde los sulfuros se transforman en sulfatos mediante la adición de oxígeno líquido. Una vez desulfurada, el agua se dirige hacia el primer reactor biológico.",
+          "text2": "Además del tratamiento del agua, la planta dispone de sistemas de desodorización, como los scrubbers químicos. El aire que se aspira de los pozos de bombeo, las balsas de desulfuración y los tanques de almacenamiento selectivo se trata químicamente para garantizar que no libere contaminantes perjudiciales para la atmósfera."
+        },
+        "biological1": {
+          "tagline": "TRATAMIENTO BIOLÓGICO",
+          "title": "Reactor biológico I",
+          "text1": "Al reactor biológico I llega el agua industrial y municipal una vez ha sido pretratada física y químicamente. Este tanque está aireado mediante difusores y se desarrollan las bacterias y protozoos necesarios para la degradación de la materia orgánica.",
+          "text2": "El agua del reactor biológico atraviesa dos decantadores secundarios, donde el fango sedimenta por gravedad. El agua clarificada pasa a un tanque de alimentación para el reactor biológico II y los fangos se recogen en una arqueta para ser enviados hacia el tratamiento de fangos o bien se recirculan para mantener un volumen de fango adecuado en el reactor."
+        },
+        "biological2": {
+          "tagline": "TRATAMIENTO BIOLÓGICO",
+          "title": "Reactor biológico II",
+          "text1": "La planta cuenta con cuatro tanques SBR (Sequential Batch Reactor) configurables para realizar tanto la reacción de nitrificación como la de desnitrificación. Generalmente, se utilizan dos reactores para cada una de las reacciones. Estos reactores tienen la peculiaridad de poder llevar a cabo en un mismo tanque todas las fases de un tratamiento biológico: alimentación, reacción, decantación, descarga y purga de fangos.",
+          "text2": "El agua pasa a los reactores nitrificantes, donde, mediante aireación, bacterias especializadas transforman el amonio a nitratos. El agua clarificada resultante va hacia el reactor biológico III."
+        },
+        "biological3": {
+          "tagline": "TRATAMIENTO BIOLÓGICO",
+          "title": "Reactor biológico III",
+          "text1": "En los reactores desnitrificantes las bacterias transforman los nitratos a nitrógeno gas, que se libera a la atmósfera, mediante la adición de materia orgánica nueva (agua desulfurada) y en ausencia de aire. Al mismo tiempo se lleva a cabo un tratamiento terciario de reducción del color mediante un coagulante.",
+          "text2": "Los fangos de todos los reactores biológicos se recogen en una arqueta de fangos biológicos, desde donde se bombean hacia el tratamiento de fangos.",
+          "text3": "Finalmente, el agua clarificada resultante llega a la arqueta de salida y se vierte al colector municipal, que posteriormente llega a la depuradora municipal de Vilanova del Camí."
+        },
+        "tertiary": {
+          "tagline": "TRATAMIENTO TERCIARIO",
+          "title": "DAF (Dissolved Air Flotation)",
+          "text1": "El tratamiento terciario está actualmente en construcción y se espera que la operativa comience a mediados o finales de 2025. El agua proveniente del reactor biológico III será tratada con un sistema de flotación para mejorar su calidad y posteriormente será vertida al colector municipal."
+        },
+        "sludge1": {
+          "tagline": "TRATAMIENTO DE FANGOS",
+          "title": "Estabilización y deshidratación de los fangos",
+          "text1": "Se lleva a cabo la estabilización del fango añadiendo lechada de cal, en la arqueta de fangos. Una vez estabilizados, entran a las centrífugas para ser deshidratados. En la centrífuga también se añade un polielectrolito para flocular el fango y extraer el máximo de agua posible. El agua clarificada que sale se retorna al reactor biológico I.",
+          "text2": "Mediante un tornillo de Arquímedes, los fangos deshidratados son transportados hasta las tolvas de almacenamiento, desde donde serán enviados a la Planta de Compostaje de Jorba para su bioestabilización.",
+          "text3": "También se dispone de sistemas de desodorización, en este caso scrubbers biológicos. El aire aspirado de la sala de tratamiento de fangos se trata biológicamente para garantizar que no libere contaminantes nocivos a la atmósfera."
+        },
+        "sludge2": {
+          "tagline": "TRATAMIENTO DE FANGOS",
+          "title": "Bioestabilización de fangos",
+          "text1": "La bioestabilización de los fangos se lleva a cabo en la Planta de Compostaje de Jorba. El fango que llega a la planta se descarga y se mezcla con madera triturada, para facilitar su bioestabilización. Esta mezcla inicial se incorpora al espacio de descomposición, llamado meseta, donde comienza el proceso de descomposición del material.",
+          "text2": "Posteriormente, se lleva a cabo la maniobra de volteo, hasta finalizar el volteo de toda la meseta, aireando así el material para favorecer su descomposición. Cuando la temperatura alcanza los 70 ºC, se produce la higienización.",
+          "text3": "Finalmente, en la fase de maniobra y cribado, el compost gris se separa de la madera mediante una cribadora (Trommel). La madera se recircula al sistema, mientras que el compost gris se gestiona adecuadamente."
+        },
+        "quality": {
+          "tagline": "CONTROL DE CALIDAD Y MANTENIMIENTO",
+          "title": "Instalaciones de gestión y mantenimiento",
+          "text1": "Las instalaciones cuentan con un laboratorio donde se llevan a cabo los controles analíticos diarios para garantizar la eficiencia de la depuradora, así como el análisis de los residuos líquidos que llegan a la planta. Desde las oficinas se gestiona y dirige la depuradora, coordinando su funcionamiento y el control general.",
+          "text2": "La planta dispone de dos salas con sopladores para proveer de aire a los reactores y tanques que lo necesitan. También hay nebulizadores distribuidos por toda la planta en puntos estratégicos para evitar la dispersión de olores desagradables en las áreas más próximas a la depuradora.",
+          "text3": "Además, cuenta con 3 tanques dedicados al almacenamiento selectivo transitorio de residuos líquidos, permitiendo su introducción y tratamiento diferencial según sus características."
+        }
+      }
+    }
+  },
+  "innovation": {
+    "hero": {
+      "tagline": "INNOVACIÓN",
+      "title": "Tecnología avanzada para la depuración del futuro"
+    },
+    "sections": {
+      "projects": {
+        "tagline": "PROYECTOS",
+        "title": "Proyectos I+D para nuevos retos ambientales",
+        "highlight": "Con la misión de liderar la transición hacia un ciclo del agua más limpio y sostenible, IDR está comprometida con la investigación y desarrollo de soluciones innovadoras en el tratamiento de aguas.",
+        "text": "Colaboramos con empresas curtidoras, centros de innovación y otras entidades del sector para optimizar el tratamiento de aguas residuales y avanzar en modelos de economía circular del agua que permitan la reutilización de recursos dentro de la industria de la piel, reduciendo así el consumo de recursos naturales."
+      },
+      "innovation": {
+        "tagline": "INNOVACIÓN",
+        "title": "Tecnologías para avanzar hacia el impacto cero",
+        "highlight": "IDR está especializada en el tratamiento biológico de aguas residuales industriales y cuenta con una larga trayectoria en la implementación de tecnologías avanzadas para la depuración de agua.",
+        "text1": "A través de la investigación en tecnologías avanzadas como la nanofiltración y la ósmosis inversa, buscamos conseguir una depuración cada vez más completa y eficiente, orientada hacia un modelo de impacto ambiental mínimo, y avanzando hacia el impacto cero.",
+        "text2": "Estos sistemas eliminan contaminantes como sales, metales pesados y compuestos orgánicos, mejorando la eficiencia y reduciendo el consumo de energía y químicos. Esto permite una gestión más sostenible del agua, alineada con los objetivos ambientales globales."
+      },
+      "quote": {
+        "text": "IDR, pionera en depuración biológica, impulsa la sostenibilidad y la innovación continua en el tratamiento de aguas para la industria de la piel."
+      },
+      "testbed": {
+        "tagline": "FILTRACIÓN CON MEMBRANAS",
+        "title": "IDR Test Bed",
+        "highlight": "IDR Test bed es una planta de ensayo abierta a empresas para probar, desarrollar y optimizar tecnologías avanzadas de tratamiento de aguas residuales mediante sistemas de filtración con membranas.",
+        "text": "Con la voluntad de compartir conocimiento y facilitar la innovación en el sector, IDR pone a disposición de otras empresas su planta de ensayo para el tratamiento terciario avanzado."
+      },
+      "featured": {
+        "title": "Proyectos destacados"
+      }
+    },
+    "numbers": {
+      "projects": {
+        "amount": "+12",
+        "label": "Proyectos"
+      },
+      "collaborators": {
+        "amount": "+7",
+        "label": "Entidades colaboradoras"
+      },
+      "researchers": {
+        "amount": "+16",
+        "label": "Investigadores dedicados a I+D"
+      }
+    },
+    "button": {
+      "more": "Saber más"
+    }
+  },
+
+  "sustainability": {
+    "hero": {
+      "tagline": "SOSTENIBILIDAD",
+      "title": "Compromiso con el medio ambiente y las personas"
+    },
+    "sections": {
+      "mission": {
+        "tagline": "NUESTRA MISIÓN",
+        "title": "El camino hacia una industria de impacto cero",
+        "highlight": "IDR, como parte fundamental del Leather Cluster Barcelona, ha liderado la transformación del sector del cuero hacia una industria más sostenible.",
+        "text": "La planta de tratamiento de aguas de Igualada, que actualmente depura las aguas residuales de 26 empresas, es un modelo pionero en Europa por su sistema biológico avanzado, capaz de reducir significativamente tanto el consumo de agua como la carga contaminante asociada al proceso de transformación del cuero."
+      },
+      "impact": {
+        "tagline": "EL IMPACTO EN DATOS",
+        "title": "Nuestros resultados desde el inicio hasta la actualidad",
+        "highlight": "Gracias a esta alianza, el consumo de agua por unidad producida se ha reducido en un 50% y la carga contaminante en otro 50% durante los últimos 20 años.",
+        "text1": "Este modelo de colaboración ha hecho posible que las empresas socias de IDR sean más ecológicas y competitivas, estableciendo un estándar de excelencia en la industria curtidora.",
+        "text2": "Mirando hacia el futuro, seguimos innovando y explorando modelos de economía circular para avanzar hacia una industria cada vez más eficiente y respetuosa con el medio ambiente."
+      },
+      "quote": {
+        "text": "IDR facilita que las aguas residuales de las empresas del sector del cuero se sumen al compromiso de la sostenibilidad, impulsando una industria más respetuosa con el medio ambiente."
+      },
+      "lifecycle": {
+        "tagline": "SOSTENIBILIDAD EN EL SECTOR",
+        "title": "El ciclo de vida sostenible del cuero",
+        "circular": {
+          "title": "Compromiso con la economía circular",
+          "text": "En IDR, apostamos por la economía circular como base de un desarrollo sostenible. Los curtidores recuperan el cuero, un subproducto del consumo de carne, fuente principal de proteína para más del 90% de la población mundial, y lo reciclan para evitar que se convierta en residuo. Así, lo valorizan en productos elegantes, nobles y útiles para la sociedad, contribuyendo a la sostenibilidad gracias a su durabilidad y por ser un producto biodegradable y compostable."
+        },
+        "byproducts": {
+          "title": "Valorización de subproductos",
+          "text": "Desde hace siglos, los curtidores recuperan este subproducto de la industria alimentaria y lo reciclan para transformarlo en bienes de consumo sostenible de alto valor añadido. Esta práctica no solo reduce residuos, sino que también promueve el uso responsable de los recursos."
+        },
+        "zero": {
+          "title": "Camino hacia el residuo cero",
+          "text": "Los curtidores catalanes, asociados al Leather Cluster Barcelona, mantienen su compromiso con el modelo de residuo cero. El clúster impulsa diversos proyectos para optimizar la valorización de los subproductos y reducir los residuos generados durante todo el proceso de producción dentro de la cadena de valor de la industria del cuero."
+        }
+      },
+      "commitment": {
+        "tagline": "SOSTENIBILIDAD EN LA PLANTA",
+        "title": "El compromiso sostenible de la depuradora",
+        "text": "En IDR, nuestro compromiso con la sostenibilidad se refleja no solo en nuestra tecnología de depuración, sino también en las prácticas internas que adoptamos para minimizar nuestro impacto ambiental y garantizar un entorno de trabajo seguro y responsable.",
+        "cards": {
+          "renewable": {
+            "title": "Energías renovables",
+            "text": "El 100% de la energía que consumimos proviene de fuentes renovables, y contamos con un sistema de placas solares propias para aumentar nuestra eficiencia energética."
+          },
+          "chemicals": {
+            "title": "Reducción del uso de agentes químicos",
+            "text": "Nuestro proceso de depuración biológica optimiza la utilización de microorganismos para sustituir los agentes químicos, con el objetivo de minimizar el impacto ambiental y favorecer soluciones más sostenibles y ecológicas."
+          },
+          "audits": {
+            "title": "Auditorías medioambientales",
+            "text": "Realizamos auditorías medioambientales regulares y mantenemos certificaciones para asegurar que nuestras prácticas cumplen los más altos estándares de sostenibilidad y responsabilidad ambiental."
+          },
+          "safety": {
+            "title": "Seguridad y prevención de riesgos laborales",
+            "text": "Nos tomamos muy en serio la seguridad de nuestros trabajadores, con protocolos estrictos para garantizar un entorno laboral seguro y cumplir con todas las normativas de salud y seguridad."
+          }
+        }
+      },
+      "certifications": {
+        "title": "Certificaciones y Auditorías Medioambientales",
+        "highlight": "En IDR, en colaboración con Tradebe, gestionamos la depuradora siguiendo los más altos estándares medioambientales, con una clara vocación por la sostenibilidad.",
+        "text": "Nuestras auditorías y certificaciones demuestran nuestra dedicación a garantizar las mejores prácticas en sostenibilidad, innovación y seguridad en todos nuestros servicios.",
+        "iso9001": {
+          "title": "ISO 9001:2015: Calidad en el Tratamiento de aguas residuales y residuos líquidos no peligrosos",
+          "items": {
+            "item1": "Eficiencia y seguridad en los procesos de tratamiento.",
+            "item2": "Cumplimiento normativo ambiental y de seguridad.",
+            "item3": "Satisfacción del cliente a través de servicios de calidad.",
+            "item4": "Mejora continua y adaptación constante."
+          }
+        },
+        "iso14001": {
+          "title": "ISO 14001:2015: Gestión ambiental en el Tratamiento de aguas residuales y residuos líquidos no peligrosos",
+          "items": {
+            "item1": "Minimización del impacto ambiental en los procesos de tratamiento.",
+            "item2": "Cumplimiento normativo ambiental y regulador.",
+            "item3": "Gestión proactiva de los recursos naturales y residuos.",
+            "item4": "Mejora continua en la eficiencia ambiental."
+          }
+        },
+        "iso45001": {
+          "title": "ISO 45001:2018: Seguridad y salud laboral en el Tratamiento de aguas residuales y residuos líquidos no peligrosos",
+          "items": {
+            "item1": "Condiciones de trabajo seguras y saludables para nuestros empleados.",
+            "item2": "Cumplimiento normativo en materia de seguridad y salud laboral.",
+            "item3": "Prevención de riesgos laborales mediante una gestión proactiva.",
+            "item4": "Mejora continua en la seguridad de las operaciones."
+          }
+        },
+        "energy": {
+          "title": "Certificado de uso de energía 100% sostenible",
+          "text": "En nuestra depuradora, estamos comprometidos con la sostenibilidad y el respeto por el medio ambiente. Así, toda nuestra energía proviene de fuentes 100% renovables. La CNMC acredita oficialmente que utilizamos exclusivamente energía limpia, reflejando nuestro compromiso con la reducción del impacto ambiental."
+        }
+      }
+    },
+    "numbers": {
+      "water": {
+        "amount": "50%",
+        "label": "Reducción de agua por unidad producida durante los últimos 20 años"
+      },
+      "pollution": {
+        "amount": "50%",
+        "label": "Reducción de carga contaminante durante los últimos 20 años"
+      },
+      "companies": {
+        "amount": "26",
+        "label": "Empresas que depuran sus aguas en IDR"
+      }
+    }
+  },
+  
+  "services": {
+    "hero": {
+      "tagline": "SERVICIOS",
+      "title": "Gestión de residuos líquidos industriales"
+    },
+    "contact": "Contacto",
+    "sections": {
+      "services": {
+        "tagline": "SERVICIOS PARA EMPRESAS",
+        "title": "Servicio de gestión de residuos líquidos no peligrosos",
+        "highlight": "IDR ofrece sus servicios de depuración y gestión de residuos líquidos no peligrosos, asesorando a las empresas en la minimización de su impacto ambiental.",
+        "text": "Nuestra filosofía de mejora continua hace que constantemente trabajemos en optimizar el proceso de tratamiento de nuestras aguas, aplicando un tratamiento fisicoquímico y biológico personalizado y óptimo para cada residuo."
+      },
+      "licenses": {
+        "tagline": "LICENCIAS",
+        "title": "Gestión de residuos líquidos con garantías ambientales",
+        "highlight": "IDR dispone de la Licencia Ambiental Integrada para la gestión de residuos líquidos no peligrosos, con código de gestor E-1706.17.",
+        "text1": "IDR es pionera en Cataluña en combinar dos actividades, la depuración de aguas industriales y urbanas y la gestión de residuos líquidos no peligrosos.",
+        "text2": "La alta capacidad tecnológica de la depuradora de IDR, permite tratar residuos líquidos no peligrosos con todas las garantías medioambientales."
+      },
+      "codes": {
+        "title": "Listado de Códigos LER",
+        "text": "Consulta los códigos LER de los residuos que estamos autorizados a tratar."
+      }
+    },
+    "contactForm": {
+      "title": "Contáctanos",
+      "email": "Email",
+      "emailPlaceholder": "Introduce tu email",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Introduce el asunto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Escribe tu mensaje",
+      "submitButton": "Enviar Mensaje",
+      "submittingButton": "Enviando...",
+      "successMessage": "¡Gracias por tu mensaje!",
+      "validation": {
+        "email": "Email",
+        "subject": "Asunto",
+        "message": "Mensaje"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline": "EMPRESA",
+      "title": "Unidos por una industria del cuero sostenible"
+    },
+    "sections": {
+      "who": {
+        "tagline": "QUIÉNES SOMOS",
+        "title": "La depuradora de los curtidores",
+        "highlight": "Igualadina de Depuració i Recuperació (IDR) fue fundada como una iniciativa corporativa de la asociación Leather Cluster Barcelona (LCB) con la participación de los curtidores del barrio del Rec de Igualada. Esta planta depuradora es gestionada por las mismas empresas de la industria del cuero, con el objetivo de garantizar un futuro sostenible para el sector.",
+        "text1": "Después de veinte años de funcionamiento, la depuradora de IDR, una de las plantas pioneras en Europa en el tratamiento de aguas residuales industriales, se ha convertido en un referente para la industria del agua.",
+        "text2": "Durante estos años, la planta que trata cada día las aguas que se generan en el proceso de transformación del cuero de las empresas curtidoras de Igualada asociadas al LCB junto con la de otras industrias, ha sido visitada por técnicos y profesionales de la sostenibilidad de más de 30 países diferentes."
+      },
+      "mission": {
+        "tagline": "NUESTRA MISIÓN",
+        "title": "La revolución sostenible del sector del cuero",
+        "text1": "Como parte del Leather Cluster Barcelona, IDR ha contribuido a la mejora continua de los procesos en el sector del cuero, con un sistema innovador de depuración biológica que ha permitido reducir de manera significativa el impacto ambiental de la industria.",
+        "text2": "Nuestra estructura organizativa se basa en la colaboración activa de nuestros socios, con comités y grupos de trabajo que asesoran en aspectos como la trazabilidad, el desarrollo técnico y el impacto ambiental, asegurando así que cada decisión contribuya a un ciclo de producción más sostenible.",
+        "text3": "Este esfuerzo colectivo impulsa una industria del cuero orientada al futuro, con un firme compromiso con la eficiencia y el respeto por el medio ambiente, aportando valor tanto a la cadena productiva como a la comunidad local."
+      },
+      "vision": {
+        "tagline": "VISIÓN DE FUTURO",
+        "text": "Queremos ser un referente internacional en sistemas avanzados de depuración de aguas industriales, liderando la transición del sector del cuero hacia un modelo de economía circular del agua de impacto cero."
+      },
+      "collaborators": {
+        "title": "Red de Colaboradores",
+        "text": "En IDR formamos parte de una red de colaboración con universidades, asociaciones, ayuntamientos y empresas especializadas, con las cuales trabajamos conjuntamente para impulsar proyectos de I+D y garantizar la sostenibilidad en la industria del cuero.",
+        "cards": {
+          "cluster": {
+            "title": "Leather Cluster Barcelona",
+            "text": "Leather Cluster Barcelona es un entorno de cooperación competitiva para promover proyectos estratégicos transversales y transformadores con el objetivo de impulsar el ecosistema del sector del cuero catalán y su cadena de valor en el marco de la sostenibilidad, la economía circular, la moda sostenible y el valor compartido."
+          },
+          "tradebe": {
+            "title": "Tradebe",
+            "text": "Tradebe es una empresa pionera en la gestión de residuos, especializada en convertirlos en recursos valiosos a través de soluciones innovadoras. Con un firme compromiso con la economía circular, Tradebe contribuye activamente a un futuro más verde y sostenible."
+          },
+          "a3": {
+            "title": "A3 Leather Innovation Center",
+            "text": "Investigación e innovación con nuevas tecnologías en el sector del cuero. A3 Leather Innovation Center impulsa proyectos para abrir nuevos horizontes, crear cuero ecológico de alta gama y mejorar la sostenibilidad de los procesos."
+          }
+        }
+      },
+      "partners": {
+        "title": "Socios y Colaboradores",
+        "text": "Nuestros socios fundadores incluyen destacadas empresas del sector del cuero, así como el Ayuntamiento de Igualada y representantes de las industrias textil y química, todos comprometidos con la sostenibilidad ambiental.",
+        "illustrious": "SOCIO ILUSTRE"
+      }
+    }
+  },
+  "table": {
+    "header": {
+      "code": "CÓDIGO LER",
+      "description": "DESCRIPCIÓN"
+    },
+    "data": {
+      "020101": "Lodos de lavado y limpieza",
+      "020201": "Lodos de lavado y limpieza",
+      "020203": "Materiales inadecuados para el consumo o la elaboración",
+      "020204": "Lodos del tratamiento in situ de efluentes",
+      "020301": "Lodos del lavado, limpieza, pelado, centrifugación y separación",
+      "020304": "Materiales inadecuados para el consumo o la elaboración",
+      "020305": "Lodos del tratamiento in situ de efluentes",
+      "020403": "Lodos del tratamiento in situ de efluentes",
+      "020501": "Materiales inadecuados para el consumo o la elaboración",
+      "020502": "Lodos del tratamiento in situ de efluentes",
+      "020601": "Materiales inadecuados para el consumo o la elaboración",
+      "020603": "Lodos del tratamiento in situ de efluentes",
+      "020704": "Materiales inadecuados para el consumo o la elaboración",
+      "020705": "Lodos del tratamiento in situ de efluentes",
+      "030305": "Lodos de destintado procedentes del reciclaje de papel",
+      "030311": "Lodos del tratamiento in situ de efluentes, diferentes de los especificados en el código 030310",
+      "040104": "Residuos líquidos de curtido que contienen cromo",
+      "040105": "Residuos líquidos de curtido que no contienen cromo",
+      "040106": "Lodos, en particular los procedentes del tratamiento in situ de efluentes, que contienen cromo",
+      "040107": "Lodos, en particular los procedentes del tratamiento in situ de efluentes, que no contienen cromo",
+      "040220": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 040219",
+      "060603": "Residuos que contienen sulfuros diferentes de los mencionados en el código 060602",
+      "070112": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070111",
+      "070212": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070211",
+      "070312": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070311",
+      "070512": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070511",
+      "070612": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070611",
+      "070712": "Lodos del tratamiento in situ de efluentes diferentes de los especificados en el código 070711",
+      "080112": "Residuo de pintura y barniz diferente de los especificados en el código 080111",
+      "080120": "Suspensiones acuosas que contienen pintura o barniz diferentes de las especificadas en el código 080119",
+      "080308": "Residuos líquidos acuosos que contienen tinta",
+      "110112": "Líquidos acuosos de enjuague diferentes de los especificados en el código 110111",
+      "161002": "Residuos líquidos acuosos diferentes de los especificados en el código 161001",
+      "161004": "Concentrados acuosos diferentes de los especificados en el código 161003",
+      "170506": "Lodos de drenaje diferentes de los especificados en el código 170505",
+      "190206": "Lodos de tratamientos fisicoquímicos diferentes de los especificados en el código 190205",
+      "190603": "Licores del tratamiento anaeróbico de residuos municipales",
+      "190605": "Licores del tratamiento anaeróbico de residuos animales y vegetales",
+      "190703": "Lixiviados de vertedero diferentes de los especificados en el código 190702",
+      "190805": "Lodos de tratamiento de aguas residuales urbanas",
+      "190809": "Mezclas de grasas y aceites procedentes de la separación agua/sustancias aceitosas que contienen únicamente aceites y grasas comestibles",
+      "190812": "Lodos procedentes del tratamiento biológico de aguas residuales industriales diferentes de los especificados en el código 190811",
+      "190814": "Lodos procedentes de otros tratamientos de aguas residuales industriales diferentes de los especificados en el código 190813",
+      "190902": "Lodos de la clarificación del agua",
+      "200304": "Lodos de fosas sépticas",
+      "200306": "Residuos de la limpieza de alcantarillado"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog",
+      "metaTitle": "IDR │ Igualadina de Depuració i Recuperació",
+      "description": "Proyectos I+D"
+    },
+    "hero": {
+      "title": "Directorio de Proyectos"
+    },
+    "categories": {
+      "all": "Ver Todo",
+      "general": "General",
+      "product": "Producto",
+      "company": "Empresa"
+    },
+    "featuredProjects": "Proyectos Destacados"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidad",
+      "metaTitle": "Política de Privacidad │ IDR",
+      "description": "Política de Privacidad"
+    },
+    "metaDescription": "Política de Privacidad",
+    "title": "Política de Privacidad",
+    "effectiveDate": "Fecha de entrada en vigor: 4 de mayo de 2025",
+    "intro": "En IDR, nos tomamos la privacidad muy en serio. Esta política de privacidad explica cómo gestionamos la información en nuestra página web y nuestros servicios en línea. Nos comprometemos a proteger su privacidad y a ser transparentes sobre nuestras prácticas.",
+    "section1": {
+      "title": "Sección 01",
+      "subtitle": "No recopilamos datos personales",
+      "text": "No recopilamos, almacenamos ni procesamos ningún tipo de dato personal de los usuarios que visitan nuestra página web. Esto incluye, pero no se limita a, información como nombres, direcciones, correos electrónicos, direcciones IP o cualquier otro dato que pueda identificarle."
+    },
+    "section2": {
+      "title": "Sección 02",
+      "subtitle": "No compartimos datos con terceros",
+      "text": "Como no recopilamos ningún dato personal, no compartimos ninguna información con terceros, ya sean empresas, organizaciones o individuos. Su interacción con nuestra página web es completamente privada."
+    },
+    "section3": {
+      "title": "Sección 03",
+      "subtitle": "Cookies y tecnologías de seguimiento",
+      "text": "Nuestra página web no utiliza cookies ni ninguna otra tecnología de seguimiento para monitorizar la actividad de los usuarios. No utilizamos herramientas de análisis, anuncios publicitarios ni otras formas de seguimiento."
+    },
+    "section4": {
+      "title": "Sección 04",
+      "subtitle": "Enlaces a sitios de terceros",
+      "text": "Nuestra página web puede contener enlaces a otros sitios web que no son operados por nosotros. No tenemos control sobre las políticas de privacidad de esos sitios y le recomendamos que revise sus políticas antes de proporcionar cualquier información."
+    },
+    "section5": {
+      "title": "Sección 05",
+      "subtitle": "Cambios en esta política",
+      "text": "Esta política de privacidad puede evolucionar con el tiempo. Cuando la actualicemos, revisaremos la 'Fecha de entrada en vigor' y publicaremos la nueva política. Para mantenerse informado sobre nuestras prácticas de privacidad, le recomendamos revisar esta política regularmente mientras utilice nuestros servicios."
+    },
+    "section6": {
+      "title": "Sección 06",
+      "subtitle": "Cómo contactarnos",
+      "text": "Si tiene cualquier duda sobre esta política de privacidad, puede contactarnos en info@idr.cat."
+    }
+  }
+}

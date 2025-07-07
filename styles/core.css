@@ -1,0 +1,951 @@
+.root {
+
+  /* Border Radius */
+
+  --r1: 4px; 
+  --r2: 6px; 
+  --r3: 8px; 
+  --r4: 10px; 
+  --r5: 16px; 
+  --r6: 30px; 
+  --r7: 40px; 
+  --r8: 48px; 
+  --r9: 60px; 
+
+  /* Margins & Paddings */
+
+  --m0: 0.125rem;   /* 2px */
+  --m1: 0.25rem;    /* 4px */
+  --m2: 0.5rem;     /* 8px */
+  --m3: 0.75rem;    /* 12px */
+  --m4: 1rem;       /* 16px */
+  --m5: 1.25rem;    /* 20px */
+  --m6: 1.5rem;     /* 24px */
+  --m7: 2rem;       /* 32px */
+  --m8: 2.5rem;     /* 40px */
+  --m9: 3rem;       /* 48px */
+  --m10: 4rem;      /* 64px */
+  --m11: 5rem;      /* 80px */
+  --m12: 6rem;      /* 96px */
+  --m13: 8rem;      /* 128px */
+  --m14: 10rem;     /* 160px */
+  --m15: 12rem;     /* 192px */
+  --m16: 14rem;     /* 224px */
+  --m17: 16rem;     /* 256px */
+
+  /* Size */
+
+  --padding: 120px 6%;
+  --paddingHero: 0px 100px 0px 8%;
+  /* --sPadding: 80px 8%; */ 
+  --divPadding: 100px 4%;   
+  --padding-1024: 100px 6%;
+  --paddingHero-1024: 0px 6%;
+  --padding-480: 80px 4%;
+  --paddingHero-480: 0px 2%;
+  --toolbar: 100px;
+
+  /* Colors */
+
+  --white: white;
+  --black: black;
+  --dark: var(--dark2);
+  --trans: rgba(0, 0, 0, 0.5);
+  --transparent: rgba(0, 0, 0, 0);
+
+  --dark1: #1c1c1c; 
+  --dark2: #282828;
+  --dark3: #3a3a3a;
+  --dark4: #707070;
+
+  --grey: hsl(240, 0%, 99%);
+  --grey1: hsl(240, 0%, 97%);
+  --grey2: hsl(240, 0%, 91%);
+  --grey3: hsl(240, 0%, 85%);
+
+  /***/
+
+  --heroBlue: hsla(215, 100%, 13%, 0.95);
+  --heroBlue2: hsla(215, 100%, 18%, 0.95);
+  --heroGreen: hsla(178, 100%, 11%, 0.95);
+  --heroGreen2: hsla(169, 100%, 11%, 0.9); 
+  --heroBrown: hsla(0, 0%, 7%, 0.95); 
+
+  --cyan: #00ede2; /*bluegrad*/
+  --cyan2: #0099c3; /*button*/
+  --blue: hsl(203, 100%, 48%); /*bluegrad*/
+  --blue2: hsl(210, 100%, 32%); /*maingrad*/
+  --blue3: hsl(210, 100%, 18%); /*maingrad dark*/
+  --blue4: hsl(210, 100%, 13%); /*innovation*/
+  
+  --turq: hsl(185, 53%, 43%); /*fase4*/
+  --turq2: hsl(195, 85%, 30%); /*fase3*/
+  --turq3: hsl(195, 100%, 25%); /*fase2*/
+  --turq4: hsl(195, 100%, 18%); /*fase1*/
+
+  --green: hsl(145, 71%, 57%); 
+  --green2: hsl(150, 48%, 43%); /*ecosquare4 */
+  --green3: hsl(150, 88%, 29%); /*ecosquare4 */
+
+  --tgreen0: hsl(170, 34%, 58%); /*maingrad*/
+  --tgreen: hsl(170, 30%, 48%); /*maingrad*/
+  --tgreen2: hsl(170, 100%, 27%); /*ecosquare3 - maingrad dark*/
+  --tgreen3: hsl(186, 100%, 22%); /*ecosquare2*/
+  --tgreen4: hsl(186, 100%, 13%); /*ecosquare1 - footer*/
+  --tgreen5: hsl(186, 100%, 7%); /*residus*/
+
+  --blue5: hsla(211, 100%, 10%, 0.96); /*innovation*/
+  --tgreen6: hsl(186, 100%, 7%, 0.9); /*residus*/
+  --brown3:rgba(28, 15, 7, 0.903); /*quisom*/
+
+  --cream: hsl(34, 100%, 78%); 
+  --cream2: hsl(27, 50%, 54%); 
+  --cream3: hsl(27, 51%, 45%); 
+
+  --brown: hsl(27, 75%, 62%); 
+  --brown2:rgb(72, 34, 13); 
+  --brown4:rgb(33, 20, 12); 
+
+  --red: #ff5b4d;
+
+  /* ------------ Gradients -------------*/
+  
+  --mainGrad: linear-gradient(
+    to right, 
+    var(--blue2),
+    var(--turq)
+  );
+
+  --mainGrad90: linear-gradient(
+    45deg, 
+    var(--blue2),
+    var(--turq)
+  );
+
+  --darkGrad: linear-gradient(
+    to right, 
+    var(--blue3),
+    var(--tgreen3)
+  );
+
+  --blueGrad: linear-gradient(
+    to right, 
+    var(--cyan),
+    var(--blue)
+  );
+  --blueGrad2: linear-gradient(
+    to right, 
+    var(--cyan),
+    var(--blue)
+  );
+
+  --greenGrad: linear-gradient(
+    to right, 
+    var(--green),
+    var(--green2)
+  );
+  --greenGrad2: linear-gradient(
+    to right, 
+    var(--green2),
+    var(--green3)
+  );
+
+  --brownGrad: linear-gradient(
+    to right, 
+    var(--cream),
+    var(--brown)
+  );
+  --brownGrad2: linear-gradient(
+    to right, 
+    var(--cream2),
+    var(--cream3)
+  );
+
+
+  --overlay:
+  linear-gradient(180deg, 
+  rgba(0, 0, 0, 0.9),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.3), 
+  rgba(0, 0, 0, 0.3));
+
+  /* Shadow */
+
+  --sh-i: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --sh-s: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --sh-m: 4px 4px 6px 0px rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --sh-l: 0 10px 10px -5px rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --sh-xl: 0 10px 20px -5px rgba(0, 0, 0, 0.03), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+  --sh-2xl: 5px 10px 20px -5px rgba(0, 0, 0, 0.2);
+
+  --sh-tag: 0px 2px 5px 1px rgba(0, 0, 0, 0.15);
+
+  /* --sh-img: 0px 5px 15px rgb(30, 20, 100, 0.1);
+  --sh-img2: 0px 5px 10px rgba(45, 38, 92, 0.1); */
+
+  --dropdown: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  --herobtn: 2px 5px 10px 0px rgba(47, 0, 135, 0.2);
+  --herobtn-hover: 2px 5px 10px 0px rgba(47, 0, 135, 0.631);
+  --sh-box: 0 0px 50px -12px rgba(0, 0, 0, 0.25);
+  --sh-btn: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  --sh-toolbar: 0 10px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* -------------------- MAIN STYLES  --------------------*/
+
+*, html, body {
+  scroll-behavior: smooth !important;
+}
+html:focus-within {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  /* color: hsl(245, 35%, 20%); */
+  color: #282828;
+  background-color: white; 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  /* letter-spacing: 0.02rem; */
+}
+
+.Dark {
+  color: white;
+}
+
+* {
+  border-collapse: collapse;
+}
+
+a, Link {
+  text-decoration: none;
+   
+  outline: none;
+  color: var(--white);
+  box-shadow: none;
+}
+
+a path {
+  fill: var(--dark);
+  /* fillRule: evenodd; */
+}
+
+main {
+  scrollbar-width: auto;
+  scrollbar-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+blockquote, dl, dd,
+h1, h2, h3, h4, h5, h6,
+hr, figure, p, pre {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+/* -------------------- MARGIN  --------------------*/
+
+.mt-1 {
+  margin-top: var(--m1);
+}
+.mt-2 {
+  margin-top: var(--m2);
+}
+.mt-3 {
+  margin-top: var(--m3);
+}
+.mt-4 {
+  margin-top: var(--m4);
+}
+.mt-5 {
+  margin-top: var(--m5);
+}
+.mt-6 {
+  margin-top: var(--m6);
+}
+.mt-7 {
+  margin-top: var(--m7);
+}
+
+/* -------------------- TEXT  --------------------*/
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.4rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 500;
+  margin-bottom: 24px; 
+  letter-spacing: 0.08rem; 
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  letter-spacing: 0.05rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+h6 {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.Dark h3 {
+  font-weight: 550;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+  padding-bottom: 16px;
+}
+
+.highlight {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
+}
+
+.blue-text {
+  color: var(--blue5);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text-s {
+  font-size: 0.875rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+}
+
+/* .smallcaps {
+  font-variant: small-caps;
+} */
+
+.MainGrad,
+.MainGrad span {
+  background: var(--mainGrad);
+  border-image-slice: 1;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  -webkit-box-decoration-break: clone; 
+  box-decoration-break: clone;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.DarkGrad,
+.DarkGrad span {
+  background: var(--darkGrad);
+  border-image-slice: 1;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  -webkit-box-decoration-break: clone; 
+  box-decoration-break: clone;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.BlueGrad,
+.BlueGrad span {
+  background: var(--blueGrad);
+  border-image-slice: 1;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  -webkit-box-decoration-break: clone; 
+  box-decoration-break: clone;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.BrownGrad,
+.BrownGrad span {
+  background: var(--brownGrad);
+  border-image-slice: 1;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  -webkit-box-decoration-break: clone; 
+  box-decoration-break: clone;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.GreenGrad,
+.GreenGrad span {
+  background: var(--greenGrad);
+  border-image-slice: 1;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: fit-content;
+  -webkit-box-decoration-break: clone; 
+  box-decoration-break: clone;
+  z-index: 1;
+  font-weight: 600;
+}
+
+/* -------------------- POSITIONING ELEMENTS --------------------*/
+
+.index-1 {
+  z-index: 1;
+}
+.index-2 {
+  z-index: 2;
+}
+.index-3 {
+  z-index: 3;
+}
+
+.radius-1 {
+  border-radius: var(--r1);
+}
+.radius-2 {
+  border-radius: var(--r2);
+}
+.radius-3 {
+  border-radius: var(--r3);
+}
+.radius-4 {
+  border-radius: var(--r4);
+}
+
+.row {
+  display: flex; 
+  flex-direction: row;
+}
+.column {
+  display: flex; 
+  flex-direction: column;
+}
+
+/* .RowListWrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.RowList {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.RowList p {
+  font-size: 0.875rem;
+  padding: 0;
+}
+
+.RowList img,
+.RowList svg {
+  padding-right: 16px;
+  width: 16px !important;
+  height: 16px !important;
+} */
+
+/* -------------------- COMMON ELEMENTS --------------------*/
+
+.UnderlineWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.Underline {
+  width: 30%;
+  border-bottom: 4px solid var(--dark);
+}
+
+.RoundedImg img {
+  border-radius: 50%;
+  height: auto;
+  border: 4px solid var(--dark);
+}
+
+.VertDivider {
+  border: none;
+  border-left: 1px solid var(--gery2);
+  height: 100%;
+}
+
+
+/* Arrow SVG */
+
+.arrow-left {
+  transform: rotate(-90deg);
+}
+
+.arrow-right {
+  transform: rotate(90deg);
+}
+
+.arrow-down {
+  transform: rotate(180deg);
+}
+
+.arrow-white {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  --arrow-fill: #161b22;
+}
+
+.arrow.orange-fill {
+  --arrow-fill: #bd5e00;
+}
+
+.arrow.gray-fill {
+  --arrow-fill: #64748b;
+}
+
+.arrow.white-fill {
+  --arrow-fill: #ffffff;
+}
+
+.input-file {
+  display: none;
+}
+
+/* -------------------- BUTTONS  --------------------*/
+
+button {
+  font-size: 1rem;
+  /* background: var(--transparent); */
+   
+  border: none;
+  outline: none;
+}
+  .AppBtn button {
+    position: relative;
+    background: var(--transparent);
+    /* box-shadow: var(--sh-l); */
+    border: 1.5px solid var(--tgreen3);
+    padding: 12px 20px;
+    min-width: 150px;
+    width: max-content;
+    border-radius: 6px;
+    /* transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out; */
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    color: var(--tgreen3);
+  }
+    .AppBtn button:hover {
+      /* color: var(--tgreen2); */
+      /* border-color: var(--tgreen2); */
+      /* background-color: var(--tgreen3); */
+      border: 1.5px solid var(--tgreen3);
+      color: white;
+      /* box-shadow: inset 12rem 0 0 var(--tgreen3);
+      transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;  */
+    }
+
+    .AppBtn button::before {
+      position: absolute;
+      transition: 0.3s;
+      content: '';
+      width: 0;
+      bottom: 0;
+      /* background: var(--mainGrad); */
+      background: var(--tgreen3);
+      height: 120%;
+      left: -10%;
+      transform: skewX(20deg);
+      z-index: -1;
+  }
+  .AppBtn button:hover::before {
+    width: 120%;
+}
+
+.AppBtn.Blue button::before {
+  /* background: var(--blueGrad2); */
+  background: var(--cyan2);
+}
+.AppBtn.Blue button:hover {
+  border-color: var(--cyan2);
+}
+.AppBtn.Blue button:hover::before {
+  width: 120%;
+}
+
+.AppBtn.Green button::before {
+  /* background: var(--greenGrad2); */
+  background: var(--green2);
+
+}
+.AppBtn.Green button:hover {
+  border: 1px solid var(--green2);
+}
+.AppBtn.Green button:hover::before {
+  width: 120%;
+}
+
+.AppBtn.Brown button::before {
+  /* background: var(--brownGrad2); */
+  background: var(--cream2);
+
+}
+.AppBtn.Brown button:hover {
+  border-color: var(--cream2);
+}
+.AppBtn.Brown button:hover::before {
+  width: 120%;
+}
+
+  .AppBtn button svg {
+    position: relative;
+    top: 1px;
+    margin-left: 12px;
+    margin-right: 2px;
+    transition: 0.1s ease-in-out;
+    width: 7px;
+  }
+  .AppBtn button:hover svg path {
+    fill: var(--tgreen3);
+  }
+    .AppBtn button:hover svg {
+      margin-left: 14px;
+      margin-right: 0px;
+    }
+
+  .AppBtn svg path {
+    fill: var(--dark);
+  }
+    .AppBtn button:hover svg path {
+      fill: var(--white);
+    }
+    
+  .AppBtn.Blue button,
+  .AppBtn.Green button,
+  .AppBtn.Brown button {
+    border-color: white;
+    color: white;
+    font-weight: 300;
+    border: 1px solid;
+    background: transparent;
+  }
+    .AppBtn.Blue button svg path,
+    .AppBtn.Green button svg path,
+    .AppBtn.Brown button svg path {
+      fill: var(--white);
+    }
+
+    /* LINE BUTTON */
+
+    .SubBtn {
+    position: relative;
+    background: var(--tgreen3);
+    /* box-shadow: var(--sh-l); */
+    /* border: 1.5px solid var(--tgreen3); */
+    padding: 14px 20px;
+    min-width: 150px;
+    width: max-content;
+    border-radius: 6px;
+    /* transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out; */
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    color: white;
+    /* width: 100%; */
+  }
+    .SubBtn:hover {
+      filter: brightness(110%);
+    }
+
+  .SmallBtn {
+    background: var(--darkGrad);
+    font-size: 1rem;
+    padding: 0px 20px;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 30px;
+    color: var(--white);
+    letter-spacing: 0.02rem;
+    font-weight: 300;
+    height: 40px;
+  }
+
+  .SmallBtnWrap {
+    padding-top: 20px;
+    width: fit-content;
+    transition: filter 0.2s ease-in-out, box-shadow 0.3s ease-in-out,
+    padding 0.2s ease-in-out;
+    border-radius: 30px;
+  }
+
+  .SmallBtnWrap:hover {
+    filter: brightness(120%);
+    /* padding-top: 19px; */
+    transition: filter 0.2s ease-in-out, box-shadow 0.3s ease-in-out,
+    padding 0.2s ease-in-out;
+    box-shadow: var(--sh-btn);
+  }
+
+  .LoadMore {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .LoadMore button {
+    background: var(--darkGrad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    border-radius: 30px;
+    color: white;
+  }
+
+/* -------------------- LOGIN  --------------------*/
+
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #f7f7f7;
+}
+
+.login-page p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #006570;
+  padding-bottom: 6px;
+}
+
+.login-container {
+  width: 100%;
+  height: fit-content;
+  max-width: 400px;
+  border: 1px solid #e9e9e9;
+  border-radius: 12px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-logo img {
+  width: 126px;
+  height: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--r2);
+  border: 1px solid var(--grey2);
+  font-size: 13px;
+  color: rgb(32, 32, 32);
+  box-sizing: border-box;
+}
+
+.error-message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: 12px;
+  color: rgb(199, 48, 48);
+  margin-top: 4px;
+}
+
+.LoginBtn {
+  margin-top: 10px;
+  background: #006570;
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: 400;
+  letter-spacing: 0.02rem;
+  color: white;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease-in-out;
+}
+
+  .LoginBtn:hover {
+    background: #007a88;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .LoginBtn:active {
+    background: #004c55;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+
+
+/* -------------------- TAGS  --------------------*/
+
+.SmallTag {
+  background: var(--mainGrad);
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--white);
+  letter-spacing: 0.02rem;
+  padding: 0px 8px;
+  margin-left: 8px;
+}
+
+/* -------------------- ANIMATIONS --------------------*/
+
+
+.animation-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.4s ease-out, transform 0.7s ease-out;
+}
+
+.animation-up.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animation-side {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.4s ease-out, transform 0.7s ease-out;
+}
+
+.animation-side.slide-side {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Right Animation */
+
+ .animation-right {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.4s ease-out, transform 0.7s ease-out;
+}
+
+.animation-right.slide-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Left Animation */
+
+.animation-left {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.4s ease-out, transform 0.6s ease-out;
+}
+
+.animation-left.slide-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.delay-1 {
+  transition-delay: 0.2s;
+}
+.delay-2 {
+  transition-delay: 0.4s;
+}
+.delay-3 {
+  transition-delay: 0.6s;
+}
+.delay-4 {
+  transition-delay: 0.8s;
+}
+.delay-5 {
+  transition-delay: 1s;
+}
+.delay-6 {
+  transition-delay: 1.2s;
+}
+.delay-7 {
+  transition-delay: 1.4s;
+} 
+

@@ -1,0 +1,1268 @@
+/*********************************************************/
+/*//////////////////////// PAGES ////////////////////////*/
+/*********************************************************/
+
+/*///////////// COMMON STYLES ///////////////////*/
+
+section .ButtonGroup,
+section .AppBtn,
+section .LineBtn {
+  margin-top: 16px;
+}
+
+/*////////////// SECTION TEMPLATES //////////////*/
+
+/*---------- Section Wrap ---------*/
+
+.SectionWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding);
+  /* border: 0.5px solid rgb(174, 174, 174) */
+}
+
+/*---- Base Section ----*/
+
+.BaseSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*---- Center Section ----*/
+
+.CenterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.CenterContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CenterHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.CenterWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CenterHeading h5,
+.CenterHeading p {
+  width: 100%;
+  max-width: 1000px;
+}
+
+/*---- Zero Section ----*/
+
+.ZeroSectionWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.ZeroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*---- Side Section ----*/
+
+.SideSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  /* align-items: stretch; */
+}
+
+/* .SideSection {
+  min-height: 450px;
+} */
+
+.MiddleSpace {
+  margin-bottom: 100px;
+}
+
+.Left,
+.Right {
+  display: flex;
+  flex-direction: row;
+}
+
+.Left .SideTxt {
+  margin-right: 5vw;
+}
+.Right .SideTxt {
+  margin-left: 5vw;
+}
+
+.SideTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.SideImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.CenterTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.CenterImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SideImg img,
+.CenterImg img,
+.SideImg video,
+.CenterImg video {
+  width: 100%;
+  height: auto;
+}
+
+.ImgWrap img,
+.ImgWrapSlide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .SquareImgWrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
+.SquareImgWrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+/*-------- Divided Section -------*/
+
+.DivSectionWrap {
+  display: flex;
+  padding: var(--padding);
+  position: relative;
+  min-height: 450px;
+}
+
+.DivSectionWrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .DivSectionWrap.DivRight::before {
+  background: linear-gradient(105deg, transparent 50%, white 50%) no-repeat
+    center right / cover;
+}
+
+.DivSectionWrap.DivLeft::before {
+  background: linear-gradient(105deg, white 50%, transparent 50%) no-repeat
+    center right / cover;
+} */
+
+.DivSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+
+.DivSection .SideTxt {
+  width: 45%;
+}
+.DivSection .SideImg {
+  width: 55%;
+}
+
+/* -------- HERO SECTION --------*/
+
+.HeroVideo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%);
+  z-index: -1;
+  direction: ltr;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hero-video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 177.78%;
+}
+
+@media (max-width: 1510px) {
+  .hero-video-container {
+    width: 180vh;
+    height: 100vh;
+    /* min-width: 100%; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* .hero-video-container iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%; 
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+} */
+
+/* @media (max-aspect-ratio: 22/9) {
+  .hero-video-container iframe {
+    width: 100%;
+    height: 177.78%;
+  }
+} */
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  z-index: 0;
+  background: linear-gradient(180deg, 
+  rgba(11, 15, 22, 0.8),
+  rgba(11, 15, 22, 0.4),
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.1),
+  rgba(0, 0, 0, 0),
+  rgba(0, 0, 0, 0), 
+  rgba(0, 0, 0, 0));
+}
+
+.HeroSectionWrap {
+  width: 100%;
+  /* height: 850px; */
+  overflow: hidden;
+  margin-top: -100px;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  z-index: 1;
+  position: relative;
+  background: black;
+}
+
+.HeroSection {
+  /* max-width: 1400px; */
+  margin: auto;
+  height: 850px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.MainHeroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.HeroContent {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  width: max-content;
+  max-width: 650px;
+  min-width: 500px;
+  padding: var(--paddingHero);
+  border-radius: 0 200px 200px 0 ;
+}
+
+.HeroContent.Wide {
+  max-width: 680px;
+}
+
+.HeroTitle {
+  padding: 50px 0 30px 0;
+}
+
+.HeroSection .AppBtn button {
+  margin-top: 40px;
+  box-shadow: var(--herobtn);
+}
+
+.HeroSection h1 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 6px;
+  /* font-size: 60px;
+  width: 60%; */
+  color: var(--white);
+  text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.HeroSection h6 {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+  letter-spacing: 0.06rem;
+}
+
+/*///////////////////// HERO ////////////////////*/
+
+#main-hero .HeroSection  {
+  justify-content: center;
+}
+
+#innovation-hero .HeroContent,
+#projects-hero .HeroContent,
+#services-hero .HeroContent {
+  background: var(--heroBlue);
+}
+#tech-hero .HeroContent,
+#eco-hero .HeroContent,
+#about-hero .HeroContent {
+  background: var(--heroGreen);
+}
+
+/* #about-hero .HeroContent {
+  background: var(--tgreen4);
+} */
+
+
+#innovation-hero {
+  background: linear-gradient(180deg, 
+  var(--heroBlue2), transparent, transparent),
+  url(../public/bg/bg-lab-xl.jpg) no-repeat center/cover;
+}
+
+#services-hero {
+  background: linear-gradient(180deg, 
+  var(--heroBlue2), transparent, transparent),
+  url(../public/bg/bg-gestio-xl.jpg) no-repeat center/cover;
+}
+
+#tech-hero {
+  background: linear-gradient(180deg, 
+  var(--heroGreen2), transparent, transparent, transparent),
+  url(../public/bg/bg-tec-xl.jpg) no-repeat bottom/cover;
+}
+
+#eco-hero {
+  background: linear-gradient(180deg, 
+  var(--heroGreen2), transparent, transparent, transparent),
+  url(../public/bg/bg-eco-xl.jpg) no-repeat center/cover;
+}
+
+#about-hero {
+  background: linear-gradient(180deg, 
+  var(--heroGreen2), transparent, transparent),
+  url(../public/bg/bg-about-xl.jpg) no-repeat top/cover;
+}
+
+#projects-hero .HeroSection {
+  height: 600px;
+}
+
+@media (max-width: 2000px) {
+
+  #innovation-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-lab.jpg) no-repeat center/cover;
+  }
+  
+  #services-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-gestio.jpg) no-repeat center/cover;
+  }
+  
+  #tech-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBrown), transparent, transparent, transparent),
+    url(../public/bg/bg-tec.jpg) no-repeat bottom/cover;
+  }
+  
+  #eco-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent, transparent),
+    url(../public/bg/bg-eco.jpg) no-repeat center/cover;
+  }
+  
+  #about-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent),
+    url(../public/bg/bg-about.jpg) no-repeat top/cover;
+  }
+    
+}
+
+@media (max-width: 1024px) {
+
+  #innovation-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-lab-m.jpg) no-repeat center/cover;
+  }
+  
+  #services-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-gestio-m.jpg) no-repeat center/cover;
+  }
+  
+  #tech-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent, transparent),
+    url(../public/bg/bg-tec-m.jpg) no-repeat bottom/cover;
+  }
+  
+  #eco-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent, transparent),
+    url(../public/bg/bg-eco-m.jpg) no-repeat center/cover;
+  }
+  
+  #about-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent),
+    url(../public/bg/bg-about-m.jpg) no-repeat top/cover;
+  }
+  
+}
+
+@media (max-width: 480px) {
+
+  #innovation-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-lab-s.jpg) no-repeat center/cover;
+  }
+  
+  #services-hero {
+    background: linear-gradient(180deg, 
+    var(--heroBlue2), transparent, transparent),
+    url(../public/bg/bg-gestio-s.jpg) no-repeat center/cover;
+  }
+  
+  #tech-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent, transparent),
+    url(../public/bg/bg-tec-s.jpg) no-repeat bottom/cover;
+  }
+  
+  #eco-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent, transparent),
+    url(../public/bg/bg-eco-s.jpg) no-repeat center/cover;
+  }
+  
+  #about-hero {
+    background: linear-gradient(180deg, 
+    var(--heroGreen2), transparent, transparent),
+    url(../public/bg/bg-about-s.jpg) no-repeat top/cover;
+  }
+  
+}
+/*////////////////// DIVIDERS ////////////////////*/
+
+.GradStripe {
+  width: 100%;
+  height: 14px;
+  background: var(--darkGrad);
+}
+
+.Stripe {
+  width: 100%;
+  height: 50px;
+} 
+
+.Stripe.Blue {
+  background: url("../public/bg/blue-stripe.jpg") 
+  no-repeat top right / cover;
+}
+
+.Stripe.Green {
+  background: url("../public/bg/green-stripe.jpg") 
+  no-repeat center / cover;
+}
+
+.Stripe.Brown {
+  background: url("../public/bg/brown-stripe.jpg") 
+  no-repeat center right / cover;
+}
+
+/*//////////////////// QUOTES //////////////////*/
+
+.QuoteContent {
+  text-align: center;
+  padding: 50px ;
+}
+
+.QuoteContent h4 {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 2.2rem;
+  letter-spacing: 0.03rem;
+}
+ 
+#innovation-quote {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(18, 33, 87, 0.6),
+      rgba(18, 33, 87, 0.6),
+      rgba(0, 0, 0, 0.2)),
+    url("../public/bg/bg-water.jpg") 
+    no-repeat center right / cover;
+}
+
+#eco-quote {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(9, 49, 34, 0.6),
+      rgba(9, 49, 34, 0.6),
+      rgba(0, 0, 0, 0.2)),
+    url("../public/bg/bg-leaf.jpg") 
+    no-repeat center right / cover;
+}
+
+#about-quote {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(49, 20, 9, 0.6),
+      rgba(49, 20, 9, 0.6),
+      rgba(0, 0, 0, 0.2)),
+    url("../public/bg/bg-leather.jpg") 
+    no-repeat center right / cover;
+}
+
+/*/////////////// MAIN PAGE /////////////////////*/
+
+/* TECH */
+
+#main-tech {
+  display: flex;
+  background: 
+  url("../public/bg/bg-main.jpg") 
+  no-repeat bottom right / 100%;
+  /* padding-bottom: 100px; */
+}
+
+#main-tech .CenterSection {
+  max-width: 1200px;
+}
+
+section video {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  /* border: 6px solid var(--tgreen4); */
+  box-shadow: var(--sh-);
+  margin-top: 20px;
+}
+
+.TextGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 12px;
+}
+
+.TextGroup .HalfText {
+  width: 70%;
+}
+
+/* INNOVATION */
+
+#main-innovation {
+  background: url("../public/img/img-lab.jpg") 
+  no-repeat center right / auto 100% ;
+}
+
+#main-innovation::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient( var(--blue5), var(--blue5)),
+    url("../public/bg/bg-water.jpg") no-repeat center / cover;
+  /* background-blend-mode: multiply; */
+  clip-path: polygon(0 0, 55% 0, 45% 101%, 0 101%);
+}
+
+#innovation::before {
+  background: linear-gradient(105deg, var(--blue4) 53%, transparent 47%) no-repeat
+  center right / cover;
+}  
+
+/* RESIDUS */
+
+#main-services {
+  background: url("../public/img/img-residus.jpg") 
+  no-repeat center right / auto 100% ;
+}
+
+#main-services::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+  linear-gradient( var(--tgreen6), var(--tgreen6)),
+  url("../public/bg/bg-green.jpg") no-repeat center / cover;
+  /* background: 
+    url("../public/bg/bg-green.jpg") no-repeat center left / cover; */
+  clip-path: polygon(0 0, 55% 0, 45% 101%, 0 101%);
+  }
+
+/* ABOUT */
+
+#main-about {
+  background: url("../public/img//img-quisom.jpg") 
+  no-repeat center right / auto 100% ;
+}
+
+#main-about::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient( var(--brown3), var(--brown3)),
+    url("../public/bg/bg-leather.jpg") no-repeat center / cover;
+  clip-path: polygon(0 0, 55% 0, 45% 101%, 0 101%);
+  }
+
+/* SOCIS */
+
+/* #main-socis {
+  background: rgb(210, 210, 210);
+} */
+
+.center-subtitle {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+
+/*//////////////////////// LA PLANTA /////////////////////*/
+
+#tech-planta {
+  padding-bottom: 30px !important;
+}
+
+#tech-planta .CenterSection {
+  max-width: 1200px;
+}
+
+#tech-video {
+  background: var(--darkGrad);
+  color: white;
+}
+
+.TechImg {
+  width: 100%;
+  height: auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.VideoWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.VideoIframe {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/*//////////////////////// INNOVATION /////////////////////*/
+
+#testbed {
+  border-bottom: 1px solid gray;
+}
+
+/*//////////////////////// SUSTAINABILITY /////////////////////*/
+
+
+#eco-cicle .CenterSection {
+  align-items: center;
+}
+
+#eco-cicle .Content {
+  max-width: 1000px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#eco-cicle .SideImg {
+  width: 30%;
+}
+#eco-cicle .SideTxt {
+  width: 70%;
+  margin-left: 40px;
+}
+
+#eco-cicle .SideImg img {
+  max-width: 300px;
+  height: auto;
+}
+
+#eco-compromis {
+  padding-bottom: 0;
+}
+
+.ZeroSection .CenterHeading {
+  padding: 0 6%;
+}
+
+#eco-cert .CenterSection {
+  max-width: 1000px;
+}
+
+/*//////////////////////// SERVICES /////////////////////*/
+
+
+#services-codes {
+  background: var(--grey);
+  border-bottom: 0.5px solid var(--grey3);
+}
+
+#services-stripe {
+  display: none;
+}
+
+#services-contact  {
+  background: url("../public/img/img-contact.jpg") 
+  no-repeat center right / auto 100% ;
+}
+
+/* #services-contact .SideImg {
+  background: url("../public/img/lab.jpg") 
+  no-repeat center right / auto 100% ;
+  height: 100%;
+  width: 100%;
+} */
+
+#services-contact::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+.LerWrap {
+  margin-bottom: 50px;
+}
+
+/*//////////////////////// ABOUT /////////////////////*/
+
+
+.SocisLogos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.SocisLogos img{
+  width: auto;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: ce;
+}
+
+.Socis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*********************************************************/
+/*/////////////////// RESPONSIVE STYLES /////////////////*/
+/*********************************************************/
+
+
+@media (min-width: 1800px) {
+/*   
+  #innovation {
+    background: url("../public/img/img-lab.jpg") 
+    no-repeat center right / auto 40vw;
+  }
+  
+  #innovation::before {
+    background: linear-gradient(105deg, var(--blue4) 60vw, transparent 40vw) no-repeat
+    center right / cover;
+  }  */
+
+  #main-services,
+  #main-innovation,
+  #main-about {
+    background: none;
+  }
+  
+  #main-innovation::before,
+  #main-services:before,
+  #main-about:before {
+    clip-path: none;
+  } 
+
+  .DivSectionWrap img {
+    border-radius: 8px;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  .ImgWrap {
+    width: calc(50% + ((100vw - 1024px) / (1500px - 1024px)) * 50%);
+    height: 440px;
+  }
+
+  .ImgWrapSlide {
+    /* width: calc(30% + ((10vw - 800px) / (10px - 1024px)) * 80%); */
+    height: 440px;
+  }
+
+}
+
+@media (max-width: 1400px) {
+
+  .DivSectionWrap {
+    min-height: 0px;
+    padding: var(--padding-1024);
+  }
+
+  h3 {
+    font-size: 3.2vw;
+    line-height: 3.8vw;
+  }
+}
+
+@media (max-width: 1280px) {
+
+    /* section,
+  .HeroSection,
+  .FooterContent {
+    padding: 80px;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }*/
+
+}
+
+@media (max-width: 1024px) {
+
+  .SectionWrap,
+  .DivSectionWrap {
+    padding: var(--padding-1024);
+  }
+
+  .HeroSectionWrap {
+    height: 100vh;
+    margin-top: -80px;
+  }
+
+  .HeroSection {
+    height: 100vh;
+  }
+
+  h2 {
+    font-size: 5vw;
+    line-height: 5.8vw;
+  }
+
+  h3 {
+    font-size: 4.4vw;
+    line-height: 5.4vw;
+  }
+
+  .Right {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .Left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Left .SideTxt,
+  .Right .SideTxt,
+  .Left .SideImg,
+  .Right .SideImg {
+    width: 100%;
+    margin: 0;
+   }
+
+    .Left .SideTxt,
+    .Right .SideTxt {
+      padding-bottom: 40px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .Left .SideImg,
+    .Right .SideImg {
+      display: flex;
+    }
+
+    .Left .SideImg img,
+    .Right .SideImg img {
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+    }
+
+    .ImgWrap {
+      width: 100%;
+      height: auto;
+    }
+
+  .QuoteContent h4 {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  .HeroContent {
+    width: 75%;
+    min-width: 0;
+    padding: var(--paddingHero-1024);
+  }
+
+  .MiddleSpace {
+    margin-bottom: 80px;
+  }
+    
+  .DivSectionWrap {
+    min-height: 0;
+  }
+
+  .DivSectionWrap img {
+    border-radius: 8px;
+  }
+  
+  #eco-cicle .SideImg {
+    width: 30%;
+    padding-left: 0;
+  }
+
+  #eco-cicle .SideTxt {
+    width: 70%;
+    padding-left: 0;
+  }
+
+  #eco-cicle .SideTxt h5 {
+    font-size: 22px;
+  }
+
+  #eco-cicle .SideTxt p {
+    font-size: 15px;
+    line-height: auto;
+  }
+
+  /* .SquareImgWrap img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  } */
+
+  /* 
+  .DivSectionWrap.DivRight::before,
+  .DivSectionWrap.DivLeft::before {
+    background: linear-gradient(350deg, transparent 45%, white 40%) no-repeat
+      center right / cover;
+  } */
+
+  .TextGroup {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .TextGroup .HalfText {
+    width: 100%;
+  }
+
+  #main-services,
+  #main-innovation,
+  #main-about,
+  #services-contact {
+    background: none;
+  }
+  
+  #main-innovation::before {
+    /* background: var(--blue4); */
+    clip-path: none;
+  } 
+
+  #main-services:before {
+    /* background: var(--tgreen5); */
+    clip-path: none;
+  } 
+
+  #main-about:before {
+    /* background: var(--brown4); */
+    clip-path: none;
+  } 
+
+  #services-contact::before {
+    clip-path: none;
+  }
+
+  #services-stripe {
+    display: block;
+  }
+  
+}
+
+@media (max-width: 800px) {
+
+  #eco-cicle .Content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #eco-cicle .SideImg,
+  #eco-cicle .SideTxt {
+    width: 90%;
+    margin: 0;
+  }
+
+  #eco-cicle img {
+    max-width: 300px;
+  }
+
+  #eco-cicle .SideTxt {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  #eco-cicle .SideTxt p{
+    font-size: 1rem;
+  }
+
+  .SocisLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  h1 {
+    font-size: 14vw;
+    line-height: 14vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+
+  h3 {
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  
+  .HeroSection h6 {
+    margin-bottom: 14px;
+
+  }
+
+  .QuoteContent {
+    padding: 0px ;
+  }
+  
+  .QuoteContent h4 {
+    font-size: 4.6vw;
+    line-height: 6vw;
+  }
+
+  .SocisLogos {
+    gap: 20px;
+  }
+
+  .SocisLogos img {
+    height: 100px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+
+  /* h1 {
+    font-size: 14vw;
+    line-height: 14vw;
+  } */
+
+  /* h2 {
+    font-size: 7.8vw;
+    line-height: 10vw;
+  } */
+
+  h3 {
+    font-size: 7.5vw;
+    line-height: 9vw;
+    /* padding-bottom: 8px; */
+  }
+  
+  .HeroSectionWrap {
+    margin-top: -60px;
+  }
+
+  .SocisLogos img {
+    height: 80px;
+  }
+
+    /* .animation-up,
+  .animation-up.slide-up {
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
+  } */
+
+  /* .HeroContent {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .HeroContent h1 {
+    width: 100%;
+  } */
+
+  /* .HeroSection h1 {
+    max-width: 90% !important;
+  }
+   */
+
+   /* 
+  .Hero h6,
+  .HeroContent h6 {
+    width: 100% !important;
+  }
+
+  .HeroSection .AppBtn button {
+    margin-top: 25px;
+  }
+ */
+
+}
+
+  @media (max-width: 360px) {
+
+    .SocisLogos {
+      gap: 1vw;
+    }
+
+} 
+
+

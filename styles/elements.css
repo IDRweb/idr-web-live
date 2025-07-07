@@ -1,0 +1,748 @@
+/*********************************************************/
+/*/////////////////////// ELEMENTS /////////////////////*/
+/*********************************************************/
+
+/*//////////////////////// CARDS /////////////////////*/
+
+.CardGroup {
+  align-items: stretch;
+  width: 100%;
+  display: flex;
+}
+
+.CardWrap,
+.Card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.CardTxt {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  /* width: 100%; */
+}
+
+.CardTxt h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark2);
+  padding-bottom: 20px;
+}
+
+.CardTxt p,
+.CardTxt li {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: var(--dark4);
+}
+
+.CardTxt ul, 
+.CardTxt li {
+  margin: 0;
+  padding: 0;
+}
+.CardTxt ul {
+  padding-left: 14px;
+}
+
+.CardTxt a {
+  color: var(--pblue);
+}
+.CardTxt a:hover {
+  color: var(--pblue1);
+}
+
+/* CARD TYPES */
+
+/* Collab Card */
+
+.CardGroup.Collab {
+  display: grid;
+  align-items: stretch; 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  padding-top: 60px;
+}
+
+.CardGroup.Collab .CardWrap {
+  /* min-width: 300px;
+  min-height: 450px; */
+  height: 100%;
+  border-radius: 16px;
+  box-shadow: var(--sh-xl);
+  transition: 0.3s ease-in-out;
+  align-items: stretch; 
+  display: flex;
+  border: 0.5px solid var(--grey2);
+}
+
+.CardTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  position: relative;
+  padding: 0;
+  border-radius: 16px 16px 0 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+  .CardTop.Collab1 {
+    background: url("../public/img/img-cluster.jpg") 
+    no-repeat center right / cover; 
+  }
+  .CardTop.Collab2 {
+    background:
+    url("../public/img/img-tradebe.jpg") 
+    no-repeat center right / cover; 
+  }
+  .CardTop.Collab3 {
+    background: url("../public/img/img-a3.jpg") 
+    no-repeat center right / cover; 
+  }
+
+.CardBottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 0 0 16px 16px;
+  background: var(--white);
+  min-height: 160px;
+  transition: 0.3s ease-in-out;
+  padding: 30px 30px 15px 30px;
+}
+
+.CardGroup.Collab .CardWrap:hover {
+  box-shadow: var(--sh-2xl);
+}
+.CardGroup.Collab .CardWap:hover .CardTop {
+  filter: brightness(115%);
+}
+.CardGroup.Collab .CardWap:hover .CardTxt {
+  padding-top: 26px;
+}
+
+.CardGroup.Collab img {
+  width: 120px;
+  height: auto;
+}
+
+/* Certificate Cards */
+
+.CardGroup.Cert {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: stretch; 
+  /* gap: 2%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.CardGroup.Cert .CardWrap {
+  border-radius: 25px;
+  box-shadow: var(--sh-xl);
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: stretch; 
+  flex-direction: row;
+  height: auto;
+}
+
+.CardTopCert {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1; 
+  background: var(--darkGrad);
+  border-radius: 16px 0 0 16px;
+  height: auto;
+}
+
+.CardTopCert .CardImg {
+  height: 100%;
+  width: auto;
+}
+
+.CardBottomCert {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 40px;
+  border: 0.5px solid;
+  border-color: var(--grey2);
+  background: var(--white);
+  border-radius: 0 16px 16px 0;
+}
+
+.CardTopCert .CardImg {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  width: 100%; 
+}
+
+.CardTopCert img {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Mission Cards */
+
+.CardGroup.Mission {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.CardGroup.Mission .CardWrap {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+  /* min-height: 300px; */
+}
+
+.CardGroup.Mission .CardTxt {
+  margin-top: 25px;
+}
+
+/* .CardGroup.Mission img {
+  width: 80px;
+  height: auto;
+} */
+
+
+.CardGroup.Mission img {
+  width: 100%;
+  height: auto;
+  max-width: 260px;
+  object-fit:cover;
+  border-radius: 50%;
+
+}
+
+/* Numbers Cards */
+
+.CardGroup.Numbers .CardWrap {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 250px;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.CardGroup.Numbers .CardNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardGroup.Numbers h1 {
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  font-size: 80px;
+}
+.CardGroup.Numbers.Small h1 {
+  font-size: 70px;
+}
+
+.CardGroup.Numbers h6 {
+  color: var(--tgreen3)
+}
+
+.CardLine {
+  width: 100%;
+  height: 4px;
+  background: var(--mainGrad);
+  margin-bottom: 20px;
+}
+
+
+/* Squares Cards */
+
+
+.CardGroup.Squares {
+  padding-top: 60px;
+}
+
+.CardGroup.Squares .CardWrap {
+  display: flex;
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.CardGroup.Squares .CardImg {
+  padding-bottom: 20px;
+}
+
+.CardGroup.Squares img {
+  width: 80px;
+  height: auto;
+}
+
+.CardGroup.Squares h6,
+.CardGroup.Squares p {
+  color: white;
+}
+
+  .CardGroup.Squares .Card1 {
+    background: var(--tgreen4);
+  }
+  .CardGroup.Squares .Card2 {
+    background: var(--tgreen3);
+  }
+  .CardGroup.Squares .Card3 {
+    background: var(--tgreen2);
+  }
+  .CardGroup.Squares .Card4 {
+    background: var(--green2);
+  }
+
+/*//////////////////////// TABLE /////////////////////*/
+
+.app-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container {
+  position: relative;
+  width: 100% !important;
+  max-width: 1400px;
+  margin: 0 auto;
+  /* max-height: 600px; */
+}
+
+.app-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: white;
+  border: 1px solid var(--grey2);
+  border-radius: 8px;
+  /* overflow: hidden !important; */
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  background: var(--darkGrad);
+  color: white;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.header-cell {
+  margin: 15px 30px;
+}
+
+.table-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.table-header-content p {
+  font-weight: 500;
+  padding: 0;
+}
+
+/* .table-body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 600px;
+} */
+
+.table-row {
+  display: flex;
+  width: 100%;
+}
+
+.table-row:not(:last-child) {
+  border-bottom: 0.5px solid var(--grey3);
+}
+
+.table-cell {
+  display: flex;
+  align-items: center;
+  margin: 15px 20px;
+  font-size: 14px;
+}
+
+/* .table-header > :first-child,
+.table-row > :first-child {
+  width: 20%;
+}
+
+.table-header > :last-child,
+.table-row > :last-child {
+  width: 80%;
+} */
+
+.CodeTag {
+  background: var(--darkGrad);
+  font-size: 0.75rem;
+  padding: 6px 0;
+  width: 100px;
+  min-width: 100px;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  color: var(--white);
+  letter-spacing: 0.04rem;
+  font-weight: 300;
+}
+
+/* Scroll Buttons */
+
+.scroll-buttons {
+  position: absolute;
+  top: 11px; /* Position above the table */
+  right: 10px; /* Align to the right */
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.scroll-button {
+  background: var(--white);
+  color: var(--tgreen3);
+  border: 1px solid var(--tgreen3);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+  font-size: 20px;
+  transition: opacity 0.3s;
+}
+
+.scroll-button:hover {
+  opacity: 1;
+  background: var(--white);
+}
+
+.scroll-button:active {
+  opacity: 0.6;
+}
+
+/* Optional: Customize scrollbar */
+
+/* .virtuoso-table::-webkit-scrollbar,
+.table-body::-webkit-scrollbar {
+  width: 20px;
+}
+
+.virtuoso-table::-webkit-scrollbar-thumb,
+.table-body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.virtuoso-table::-webkit-scrollbar-track,
+.table-body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+} */
+
+/*//////////////////////// FORM /////////////////////*/
+
+/* Input */
+
+input:focus {
+  outline: none;
+}
+
+.app-input {
+  width: 100%;
+  min-height: 38px;
+  padding: var(--m2) var(--m3);
+  background-color: var(--white);
+  border-radius: var(--r2);
+  border: 1px solid;
+  border: 1px solid var(--gray2);
+}
+
+.app-input.disabled {
+  background: var(--grey);
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--m5);
+}
+
+.form-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+}
+
+.form-input.disabled {
+  background-color: var(--grey);
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: var(--r2);
+  border: 1px solid var(--grey2);
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--grey3);
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 10px;
+  background-color: var(--white);
+  border-radius: var(--r2);
+  border: 1px solid var(--grey2);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.error-message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: 12px;
+  color: #dd3a3a !important;
+  margin-top: 4px;
+}
+
+/* .contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.form-container {
+  /* display: flex;
+  flex-direction: column;
+  gap: var(--m2);
+  max-width: 100%;
+  background-color: white;
+  border-radius: var(--r5);
+  border: 0.5px solid var(--gray3);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05); */
+}
+
+/*********************************************************/
+/*/////////////////// RESPONSIVE STYLES /////////////////*/
+/*********************************************************/
+
+@media (max-width: 1400px) {
+
+  #about-collab .CenterSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .CardGroup.Collab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardGroup.Collab .CardWrap {
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+    align-items: center;
+  }
+
+  .CardTop {
+    width: 40%;
+    border-radius: 16px 0 0 16px;
+    height: 100%;
+  }
+
+  .CardBottom {
+    border-radius: 0 16px 16px 0;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+
+  .CardGroup.Numbers {
+    margin-top: 40px;
+  }
+  
+  .CardGroup.Numbers .CardWrap {
+    margin-top: 60px;
+  }
+  
+  .CardGroup.Numbers h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+  .CardGroup.Numbers.Small h1 {
+    font-size: 50px;
+  }
+
+  .CardGroup.Mission {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+    /* .CardGroup.Mission .CardWrap {
+    width: 100%;
+  } */
+
+}
+
+@media (max-width: 1024px) {
+
+  .CardGroup.Squares {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-container {
+    max-width: 100%;
+    margin-right: 2.4vw;
+  }
+
+  /* .CardLine {
+    width: 80%;
+    height: 4px;
+    background: var(--mainGrad);
+    margin-bottom: 20px;
+  } */
+
+}
+
+@media (max-width: 900px) {
+
+  .CardGroup.Numbers {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .CardGroup.Numbers .CardWrap {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+    .CardGroup.Collab .CardWrap {
+    height: 284px;
+  }
+  
+}
+
+@media (max-width: 640px) {
+
+  .CardGroup.Collab {
+    flex-direction: column;
+  }
+
+  .CardGroup.Collab .CardWrap {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .CardGroup.Squares {
+    grid-template-columns: 1fr;
+  }
+
+  .CardTop,
+  .CardTopCert {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    height: 200px
+  }
+
+  .CardBottom,
+  .CardTopBottom {
+    border-radius: 0 0 16px 16px;
+  }
+
+  .CardGroup.Numbers {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .CardGroup.Cert {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .CardGroup.Cert .CardWrap {
+    flex-direction: column;
+  }
+  
+  .CardTopCert {
+    align-items: center;
+    min-height: 200px;
+  }
+  
+  .CardBottomCert {
+    border: 0.5px solid var(--grey2);
+    border-radius: 0 0 16px 16px;
+  }
+
+  .table-body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 500px;
+    border: 1px solid var(--grey3);
+  }
+
+  .header-cell {
+    padding-left: 14px; 
+  }  
+  
+  .table-cell {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px; 
+    font-size: 14px; 
+  }
+
+  .CodeTag {
+    min-width: fit-content;
+  }
+  
+
+}

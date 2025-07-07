@@ -1,0 +1,827 @@
+/* RESPONISVE TOOLBAR */
+
+.ToolbarMenuBackdrop,
+.ToolbarMenuBox {
+  visibility: hidden;
+}
+.ToolbarMenuBackdrop.open,
+.ToolbarMenuBox.open {
+  visibility: visible;
+}
+
+.ToolbarMenuBackdrop {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  background: var(--white);
+  opacity: 1;
+}
+
+.ToolbarMenuBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.MenuHamburger button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+   
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+}
+
+.MenuClose button {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 25px;
+  right: 30px;
+  transform: scale(0.75);
+  border: none;
+   
+  background: transparent;
+}
+
+.header-scrolled .MenuHamburger svg,
+.header-top-w  .MenuHamburger svg,
+.header-scrolled-w .MenuHamburger svg {
+  fill: var(--dark);
+}
+
+.MenuClose svg path,
+.dropdown-link svg path {
+  fill: var(--dark) !important;
+}
+
+.Exit_Icon path {
+  fill: var(--dark);
+}
+
+.MenuClose .AppName {
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+/*//////////////////// TOOLBAR /////////////////*/
+
+
+.Toolbar,
+.ToolbarWhite {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background: transparent; */
+  /* position: fixed; */
+}
+
+.Toolbar,
+.ToolbarWhite,
+.header-top,
+.header-scrolled,
+.header-top-w,
+.header-scrolled-w {
+  height: 80px;
+  z-index: 10;
+  /* background: transparent; */
+}
+
+.ToolbarWhite {
+  background: white;
+}
+
+.header-top {
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-scrolled,
+.header-scrolled-w  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: var(--sh-toolbar);
+  background: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-top-w {
+  background: white;
+  border-bottom: 1px solid var(--grey3);
+}
+
+.ToolbarInner {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  padding: 0 30px;
+  z-index: 10;
+}
+
+.ToolbarMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15vw;
+}
+
+.AppName {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.AppName svg {
+  width: 150px;
+  height: auto;
+}
+
+.toolbar-logo img,
+.footer-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.header-scrolled img,
+.header-top-w img {
+  filter: invert();
+}
+
+/* .header-top .AppName svg path {
+  fill: #fff;
+}
+
+.header-scrolled .AppName svg path,
+.ToolbarWhite .AppName svg path  {
+  color: var(--dark);
+} */
+
+ 
+/*---------------  Menu  Links ---------------*/
+
+
+.MenuLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.MenuLinks a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+
+  background: transparent;
+  border-bottom: 2px solid transparent;
+   
+}
+
+  .header-top .MenuLinks a {
+    color: var(--white);
+  }
+  .header-top .MenuLinks a:hover {
+    color: var(--white);
+  }
+  .header-top .MenuLinks a:active {
+    color: var(--white);
+  }
+
+  .header-scrolled .MenuLinks a {
+    color: var(--dark);
+  }
+  .header-scrolled .MenuLinks a:hover {
+    color: var(--dark);
+  }
+  .header-scrolled .MenuLinks a:active {
+    color: var(--dark);
+  }
+
+  .header-top-w .MenuLinks a {
+    color: var(--dark);
+  }
+  .header-top-w .MenuLinks a:hover {
+    color: var(--dark);
+  }
+  .header-top-w .MenuLinks a:active {
+    color: var(--dark);
+  }
+
+/*---------------  Menu  Dropdown ---------------*/
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-link {
+  display: flex;
+  justify-content: center;
+}
+
+.open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #e9e9e9;
+  width: max-content;
+  margin-top: 0px;
+  box-shadow: var(--dropdown);
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-menu a,
+.dropdown-menu .no-link {
+  color: var(--dark2) !important;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  padding: 8px 10px 10px 10px;
+}
+
+.dropdown-menu a:hover {
+  color: var(--pblue) !important;
+  background: var(--grey1);
+}
+
+.dropdown-menu a:active {
+  color: var(--pblue) !important;
+  background: var(--grey2);
+}
+
+.dropdown-item .icon {
+  flex: 0 0 auto;
+  padding-right: 14px;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-item .text {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 8px;
+}
+
+.dropdown-item .text a {
+  color: var(--dark2);
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+   
+}
+
+.dropdown-item .text small {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 0.875rem; 
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  margin: 0; 
+  padding: 0; 
+}
+
+/*---------------  App Button  ---------------*/
+
+.ButtonGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ButtonGroup.left {
+  justify-content: flex-start;
+}
+.ButtonGroup.right {
+  justify-content: flex-end;
+}
+.ButtonGroup.center {
+  justify-content: center;
+}
+
+.header-top .AppBtn button {
+  color: var(--white);
+  /* padding: 16px 20px; */
+  /* height: 48px; */
+  border-color: white;
+}
+.header-top .AppBtn button:hover {
+  background-color: transparent;
+  border-color: var(--tgreen3);
+
+}
+.header-top .AppBtn svg path {
+  fill: var(--white);
+}
+
+
+/* .Toolbar .LineBtn button {
+  background: var(--dpurple);
+  color: var(--white);
+  font-weight: 300;
+}
+
+.ToolbarWhite .LineBtn button,
+.header-scrolled .LineBtn button {
+  color: var(--dark);
+  background-color: var(--white);
+  padding: 16px 20px;
+}
+
+.ToolbarWhite .LineBtn button:hover,
+.header-scrolled .LineBtn button:hover {
+  background: var(--warmGrad) !important;
+  color: var(--white) !important;
+} */
+
+
+/*////////////////// FOOTER ////////////////////*/
+
+.Footer {
+  width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background: var(--tgreen4);
+}
+
+.FooterContent {
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+ /*------- Navigation Section -------*/
+
+.FooterNavWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.FooterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.LogoWrap {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+}
+
+.ContentWrap {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
+
+.FooterSection.Nav {
+  width: 33%;
+}
+.FooterSection.Info {
+  width: 66%;
+  height: 240px;
+}
+
+.FooterColumnWrap {
+  display: flex;
+}
+
+.FooterColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* .FooterColumn.Wide {
+  min-width: 250px;
+} */
+
+.Footer ul, 
+.Footer li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  padding: 8px 0;
+}
+
+.Footer h6 {
+  color: var(--sBlue);
+  font-size: 1rem;
+  font-weight: 400; 
+  margin-left: 0 !important;
+} 
+
+.Footer p {
+  font-size: 0.875rem;
+  padding: 0;
+  font-weight: 300;
+ }
+
+ .Footer a:hover {
+  color: var(--tgreen);
+ }
+
+ /* Partners */
+
+.PartnerLogos {
+  display: flex;
+  align-items: center;
+  gap: 12%;
+}
+
+.PartnerLogos img {
+  height: 60px;
+  width: auto;
+} 
+
+/* Social Icons */
+
+.CompanyWrap {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding-right: 5%;
+  border-right: 1px solid var(--pblue);
+}
+
+/* Info Section */
+
+.FooterInfoWrap {
+  margin-top: 60px;
+}
+
+.Legal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
+
+.Legal p {
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
+
+.PoweredBy {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 24px;
+}
+
+.PoweredByInner {
+  font-size: var(--text-xs);
+  color: var(--pblue1);
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+}
+
+.PoweredByInner a {
+  display: flex;
+  justify-content: center;
+  color: var(--grey2);
+}
+
+.PoweredByInner a:hover {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+}
+
+/* Language Selector */
+.LanguageSelector {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.LanguageSelector a {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var();
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.LanguageSelector a:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.LanguageSelector a.active {
+  background-color: var(--tgreen2);
+  color: white;
+  border-color: var(--tgreen2);
+}
+
+/*********************************************************/
+/*////////////////// RESPONSIVE STYLES //////////////////*/
+/*********************************************************/
+
+@media (max-width: 1350px) {
+  
+  .ToolbarMenu {
+    padding-right: 10px;
+    padding-left: 35px;
+  }
+}
+
+ @media (max-width: 1280px) {
+  
+  .Toolbar .LineBtn button,
+  .ToolbarWhite .LineBtn button {
+    width: 100% !important;
+    min-width: 10vw !important;
+  }
+
+  .MenuLinks a {
+    padding-right: 3vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  
+  .Toolbar .LineBtn button,
+  .ToolbarWhite .LineBtn button {
+    width: 100% !important;
+    min-width: 10vw !important;
+  }
+
+  .MenuLinks a {
+    padding-right: 2vw;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  .ToolbarMenu {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .Toolbar .AppBtn button,
+  .ToolbarWhite .AppBtn button {
+    padding: 16px 24px;
+    height: 52px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .ButtonWrap {
+    border: none;
+  }
+
+  .MenuLinks {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    width: 90%;
+  }
+
+  .MenuLinks a {
+    color: var(--dark) !important;
+    margin-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 7vh;
+  }
+
+  .MenuLinks a:hover {
+    color: var(--tgreen2) !important;
+  }
+
+  .MenuLinks.Extra {
+    padding-top: 0;
+  }
+
+  .dropdown-item {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .open .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  /* .MenuLinks a:hover {
+    color: var(--dark);
+  }
+
+  .dropdown-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .arrow {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .rotate-arrow {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }  */
+
+  .FooterNavWrap {
+    flex-direction: column;
+  }
+
+  .LogoWrap {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .ContentWrap {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .ContentWrap {
+    flex-direction: row-reverse;
+  }
+  .FooterColumnWrap {
+    flex-direction: column;
+  }
+  .FooterSection.Info {
+    width: 60%;
+    height: auto;
+  }
+  .FooterSection.Nav {
+    width: 40%;
+  }
+  .PartnerLogos {
+    margin-top: 20px;
+  }
+ 
+}
+
+@media (max-width: 600px) {
+
+
+  /* .CompanyWrap {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--pblue);
+    border-right: none;
+  } */
+
+  .ContentWrap {
+    flex-direction: column;
+  }
+
+  .FooterSection.Info,
+  .FooterSection.Nav {
+    width: 100%;
+  }
+
+  .Footer ul, 
+  .Footer li {
+    padding: 6px 0;
+  }
+
+   
+}
+
+@media (max-width: 480px) {
+
+  .ToolbarInner {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+    .Toolbar,
+  .ToolbarWhite,
+  .header-top,
+  .header-scrolled,
+  .header-top-w,
+  .header-scrolled-w {
+    height: 60px;
+    z-index: 10;
+  }
+
+  .MenuClose .AppName {
+    padding-left: 20px;
+    padding-top: 10.5px;
+  }
+
+  .AppName svg {
+    width: 130px;
+    height: auto;
+  }
+
+  .MenuClose button {
+    right: 20px;
+    top: 15px;
+  }
+
+  .MenuLinks {
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+  .MenuLinks.Extra {
+    padding-top: 8px;
+  }
+
+  .FooterNavWrap {
+    grid-template-columns: 1fr;
+  }
+
+  .Legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .MenuLinks {
+    padding-left: 15px;
+  }
+
+
+  .dropdown-item .icon {
+    padding-right: 10px;
+  }
+
+  .dropdown-menu a, .dropdown-menu .no-link {
+    color: var(--dark2) !important;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    padding: 8px 0px 12px 0px;
+  }
+
+}
+
